@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    height: 50px;
+}
+
+main h1 { 
+    color: white;
+    margin-bottom: 0%;
+}
+main p {
+    color: white;
+    width: 470px;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;             
+    background-image: url(assets/background-home.jpg);
+    background-size: cover; 
+    height: calc(100vh - 45px);
+
+}
+.sessao-top-5 h1 {
+    color: #AA1423;
+    text-transform: uppercase;
+}
+.sessao-top-5 a {
+    text-decoration: none;
+    color: #AA1423;
+}
+.sessao-top-5 {
+    display: flex; /* certeza q tu ia ficar putasso pq o bagulho não ia funcionar e tu nao ia saber pq */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    margin-top: 0%;
+    width: 25vw;
+    line-height: 35px;
+}
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+li a {
+    font-size: 15px;
+    color: #AA1423;
+    font-weight: bold;
+}
+li span {
+    color: grey;
+ }
+.sessao-cliques{
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+}
+.sessao-cliques h1 {
+    color: #AA1423;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.sessao-cliques span {
+    color: #AA1423;
+    font-size: 20px;
+}
+.box-fundo {
+    background-color: white;
+    width: 11vw;
+    height: 4vh;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .4);
+}
+.frase-contador {
+    color: gray;
+    margin-top: 0%;
+
+}
+.seta {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    border-top: 20px solid white;
+  }
+  footer a {
+      color: #AA1423;
+      text-decoration: none;   
+  }
+  footer img {
+      margin-left: 30px;
+  }
+  footer {
+      margin-left: 14%;
+      margin-right: 14%;
+      display: flex;
+      justify-content: space-between;
+    align-items: center;
+  }
+  .input-box-encurtador {
+    display: flex;
+    flex-flow: row;    
+}   
+  .encurtador {
+      background: none;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-bottom: 3px solid orangered;
+      line-height: 30px;
+    }
+
+        button {
+        height: 40px;
+        width: 120px;
+        background-color: orangered;
+        border: 0px;
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+        
+    }
+    ::placeholder {
+        color: orangered;
+    }

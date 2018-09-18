@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Encurtador de Links</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="/assets/logo-chaordic.png" alt="logo do chaordic."> 
+        </figure>
+         
+    </header>
+    <main>
+        <h1>Encurte seus links.</h1>
+        <p>
+            Links são longos. Encurte os links que você deseja compartilhar e acompanhe 
+            enquanto viajam através da internet.
+        </p>
+        <div class="input-box-encurtador">
+            <input type="text" placeholder="Cole aqui seu link aqui." class="encurtador" id="linkEncurtar">
+            <button onclick="encurtar()">Encurtar</button>
+        </div>
+    </main>
+    <section class="sessao-top-5">
+        <h1>Top 5</h1>
+            <ul>
+                <li>
+                    <a href="#">www.teste1.com.br</a>
+                    <span>7.919</span>
+                </li>
+                <li>
+                    <a href="#">www.teste2.com.br</a>
+                    <span>6.899</span>
+                </li>
+                <li>
+                    <a href="#">www.teste3.com.br</a>
+                    <span>2.111</span>
+                </li>
+                <li>
+                    <a href="#">www.teste4.com.br</a>
+                    <span>617</span>
+                </li>
+                <li>
+                    <a href="#">www.teste5.com.br</a>
+                    <span>43</span>
+                </li>
+            </ul> 
+    </section>
+    <section class="sessao-cliques">
+        <div class="seta"></div>
+        <h1>hits</h1>
+        <div class="box-fundo">
+            <span>35.420.311</span>
+        </div>
+        <p class="frase-contador">cliques em links</p>
+        
+    </section>
+    <footer>
+        <a href="#">chr.dc</a>
+        <figure>
+            <img src="assets/icon-twitter.png">
+            <img src="assets/icon-facebook.png"> 
+        </figure>
+        <!-- links facebook e twitter -->
+    </footer>
+</body>
+<script>
+    // aqui a gente vai começar a codar a funcionalidade do bagulho.
+    // vou te dar de presente uma fn
+    var link = document.getElementById("linkEncurtar"); 
+    //como ele vai saber qual elemento tu vai ter aqui? mágica?
+    // tá faltando coisa pra vc ter o texto do input na mão
+    function encurtar() {
+        alert(link.value);
+        
+    }
+</script>
+</html>
